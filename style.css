@@ -1,0 +1,31 @@
+body{
+    width: auto;
+    padding-top: 100px;
+    background-color: pink;
+}
+.container{
+display: flex;
+border: rebeccapurple;
+}
+
+.fblog{
+    text-align: center;
+    color: rgb(204, 27, 204);
+    background-color: rgb(32, 207, 219);
+
+}
+.card-title{
+    color: blue;
+}
+.card-deck{
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }
+  .heading
+  {
+      text-align: center;
+  }
